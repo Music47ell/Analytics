@@ -31,12 +31,12 @@ const siteMetadata = {
 		]
 	},
 	NavLinks: [
-		{ title: 'Home', url: 'https://www.news47ell.com', activePath: /^\/$/ },
-		{ title: 'Blog', url: 'https://www.news47ell.com/blog', activePath: /^\/blog*/ },
-		{ title: 'Tags', href: 'https://www.news47ell.com/blog', activePath: /^\/blog\/tags*/ },
-		{ title: 'Projects', url: 'https://www.news47ell.com/projects', activePath: /^\/projects*/ },
-		{ title: 'Colophon', url: 'https://www.news47ell.com/colophon', activePath: /^\/colophon*/ },
-		{ title: 'Sponsors', url: 'https://www.news47ell.com/sponsors', activePath: /^\/sponsors*/ }
+		{ title: 'Home', href: 'https://www.news47ell.com', activePath: /^\/$/ },
+		{ title: 'Blog', href: 'https://www.news47ell.com/blog', activePath: /^\/blog*/ },
+		{ title: 'Tags', href: 'https://www.news47ell.com/blog/tags', activePath: /^\/blog\/tags*/ },
+		{ title: 'Projects', href: 'https://www.news47ell.com/projects', activePath: /^\/projects*/ },
+		{ title: 'Colophon', href: 'https://www.news47ell.com/colophon', activePath: /^\/colophon*/ },
+		{ title: 'Sponsors', href: 'https://www.news47ell.com/sponsors', activePath: /^\/sponsors*/ }
 	]
 };
 
